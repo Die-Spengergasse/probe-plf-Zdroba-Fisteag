@@ -19,6 +19,11 @@ public class Array {
         int rv = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
+            if (i > rv) {
+                rv = arr[i];
+            } else {
+                rv = rv;
+            }
         }
         return rv;
     }
@@ -26,6 +31,14 @@ public class Array {
     // hier wird das kleinste Element des Arrays gesucht
     public static int arrayMin(int[] arr) {
         int rv = Integer.MAX_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+            if (i > rv) {
+                rv = arr[i];
+            } else {
+                rv = rv;
+            }
+        }
         return rv;
     }
 
