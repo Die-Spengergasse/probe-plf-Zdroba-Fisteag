@@ -17,8 +17,8 @@ public class Array {
     // hier wird das größte Element des Arrays gesucht
     public static int arrayMax(int[] arr) {
         int rv = Integer.MIN_VALUE;
-        for (int i = rv; i < Integer.MIN_VALUE; i++) {
-            
+        for (rv = 0; rv <= Integer.MAX_VALUE; rv++) {
+            return Integer.MIN_VALUE;
         }
         return rv;
     }
