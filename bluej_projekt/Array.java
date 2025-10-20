@@ -19,8 +19,8 @@ public class Array {
         int rv = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
-            while(i < arr.length[i]) {
-                
+            if (i >= arrayMax()) {
+            
             }
         }
         return rv;
