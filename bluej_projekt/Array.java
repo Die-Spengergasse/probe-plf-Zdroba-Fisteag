@@ -11,6 +11,9 @@ public class Array {
     // übergebenen int Array
     public static int arraySum(int[] arr) {
         int rv = 0;
+        for (int i = 0; i < arr.length; i++) {
+            rv += arr[i];
+        }
         return rv;
     }
 
