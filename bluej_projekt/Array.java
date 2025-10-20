@@ -19,7 +19,7 @@ public class Array {
         int rv = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
-            if (i > rv) {
+            if (arr[i] > rv) {
                 rv = arr[i];
             } else {
                 rv = rv;
@@ -33,7 +33,7 @@ public class Array {
         int rv = Integer.MAX_VALUE;
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
-            if (i > rv) {
+            if (arr[i] < rv) {
                 rv = arr[i];
             } else {
                 rv = rv;
