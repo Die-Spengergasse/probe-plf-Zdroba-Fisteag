@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Array
-comment0.text=\n\n\ Hier\ ist\ die\ fehlende\ Logik\ zu\ implementieren\!\n\n\ Die\ Testklasse\ darf\ unter\ keinen\ Umst\u00E4nden\ modifiziert\ werden\!\n\n
+comment0.text=\r\n\r\n\ Hier\ ist\ die\ fehlende\ Logik\ zu\ implementieren\!\r\n\r\n\ Die\ Testklasse\ darf\ unter\ keinen\ Umst\u00E4nden\ modifiziert\ werden\!\r\n\r\n
 comment1.params=arr
 comment1.target=int\ arraySum(int[])
 comment2.params=arr
