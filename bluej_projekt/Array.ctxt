@@ -9,4 +9,6 @@ comment3.params=arr
 comment3.target=int\ arrayMin(int[])
 comment4.params=arg
 comment4.target=int[]\ toReversed(int[])
-numComments=5
+comment5.params=parameter_array
+comment5.target=int\ closestToZero(int[])
+numComments=6

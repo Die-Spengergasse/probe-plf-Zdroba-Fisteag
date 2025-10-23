@@ -54,4 +54,18 @@ public class Array {
         }
         return rv;
     }
+    
+    public static int closestToZero(int[] parameter_array) {
+        int rv = Integer.MAX_VALUE;  // bisher gefundenes closest
+        for (int item: parameter_array) {
+            if (Math.abs(item) < Math.abs(rv)) {
+                rv = item;
+                continue;
+            }
+            if (Math.abs(item) == Math.abs(rv)) {
+                if (item > rv) rv = item;
+            }
+        }
+        return rv;
+    }
 }

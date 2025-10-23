@@ -47,4 +47,17 @@ public class ArrayTest {
         assertArrayEquals(arr_rev2[1], Array.toReversed(arr_rev2[0]));
         assertArrayEquals(arr_rev2[0], Array.toReversed(arr_rev2[1]));
     }
+    
+    @Test
+    public void closestToZero() {
+        int[] a1 = { -9, -23, 26, -12, -7, 4, 21, -21, 1, -23 };
+        int a1c = 1;
+        int[] a2 = { -23, 15, 10, 25, -3, 15, 8, 14, 18, -23 };
+        int a2c = -3;
+        int[] a3 = { 2, -14, 26, -9, -24, -11, 20, -2, 18, 15 };
+        int a3c = 2;
+        assertEquals(a1c, Array.closestToZero(a1));
+        assertEquals(a2c, Array.closestToZero(a2));
+        assertEquals(a3c, Array.closestToZero(a3));
+    }
 }
